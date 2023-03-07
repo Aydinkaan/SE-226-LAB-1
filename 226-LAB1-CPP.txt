@@ -1,0 +1,102 @@
+QUESTİON-1
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string name, id;
+
+    // Prompt the user for their name and read it into the 'name' variable
+    cout << "What is your name?" << endl;
+    cin >> name;
+
+    // Greet the user using their name
+    cout << "Hello " << name << "." << endl;
+
+    // Prompt the user for their student ID and read it into the 'id' variable
+    cout << "What is your Student ID?" << endl;
+    cin >> id;
+
+    // Display the user's ID
+    cout << "Your ID is " << id << "." << endl;
+
+    return 0;
+}
+QUESTİON-2
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int var1;
+    int var2;
+    int sum;
+    int diff;
+    int prod;
+
+    // Prompt the user to enter values for var1 and var2
+    cout << "Enter the value of var1: ";
+    cin >> var1;
+    cout << "Enter the value of var2: ";
+    cin >> var2;
+
+    // Compute sum, difference, and product
+    sum = var1 + var2;
+    diff = var1 - var2;
+    prod = var1 * var2;
+
+    // Display the values of var1, var2, sum, diff, and prod
+    cout << "var1 = " << var1 << endl;
+    cout << "var2 = " << var2 << endl;
+    cout << "sum = " << sum << endl;
+    cout << "diff = " << diff << endl;
+    cout << "prod = " << prod << endl;
+
+    return 0;
+}
+
+QUESTİON-3
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string name;
+    float lab_score;
+    float midterm_score;
+    float final_score;
+    float last_score;
+
+    // Prompt the user to enter the student's name and grades
+    cout << "Enter the student's name: ";
+    cin >> name;
+
+    cout << "Enter the lab score: ";
+    cin >> lab_score;
+
+    cout << "Enter the midterm grade (out of 100): ";
+    cin >> midterm_score;
+
+    cout << "Enter the final grade (out of 100): ";
+    cin >> final_score;
+
+    // Calculate the last score using the given percentages
+    last_score = (lab_score * 0.25) + (midterm_score * 0.35) + (final_score * 0.4);
+
+    // Display the student's name and last score
+    cout << name << "'s last score is: " << last_score << endl;
+
+    return 0;
+}
+QUESTİON-4
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    cout << "*\n** \n*** \n** \n*"<<endl;
+}
+
